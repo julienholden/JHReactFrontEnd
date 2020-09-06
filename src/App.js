@@ -12,8 +12,6 @@ class App extends Component{
   }
 
   componentDidMount(){
-    //fetch('http://jsonplaceholder.typicode.com/users')
-    //fetch('http://jhendpoint0845.azurewebsites.net/api/allstaff')
 
     //the 'core-anywhere' prefix url is an app that removes the CORS access-origin error from sometimes occuring
     //when accessing web apis. This is a temporary solution used duriing development and before
