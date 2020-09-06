@@ -1,5 +1,28 @@
 .App {
   text-align: center;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.bannertext{
+  text-align: center;
+  padding: 25px;
+}
+
+.datatableheader{
+  color: green;
+}
+
+.datatable {
+  background-color:lightgray;
+  margin: auto;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: medium;
+  text-align: left;
 }
 
 .App-logo {
