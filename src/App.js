@@ -40,11 +40,11 @@ class App extends Component{
           <div>
           <table className="datatable">
               <thead className="datatableheader">
-                <td>Employee ID</td>
-                <td>First Name</td>
-                <td>Surname</td>
-                <td>Manager</td>
-                <td>YTD Sales</td>
+                <th>Employee ID</th>
+                <th>First Name</th>
+                <th>Surname</th>
+                <th>Manager</th>
+                <th>YTD Sales</th>
               </thead>
             {items.map(item => (
               <tbody key={item.id}>
